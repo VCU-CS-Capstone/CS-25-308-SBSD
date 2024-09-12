@@ -1,6 +1,6 @@
-# *Your Project Description*
-## *Sponsoring Company or Organization*
-## *Short Project Description*
+# *CS 25-308 SBSD Web Prototype and GPT*
+## *Virginia Department of Small Business and Supplier Diversity*
+## *Creating a more interactive, user responsive web site by including chatbot/GPT technology*
 The directory structure in this GitHub is to allow the project to have all its resources self-contained.
 Open Source software should not just be a repository of code.  There are a number of directories to help you and others who will 
 follow in your footsteps.  It'll also allow the Linux Foundation OMP Mentorship program to keep track of your project and get
@@ -19,8 +19,8 @@ a better understanding of the problems you encountered during the development of
 ## Project Team
 - *Mentor's Name*  - *Company Affliation* - Mentor
 - *Technical Advisor Name* - *Company Affliation* - Technical Advisor
-- *Faculty Advisor's Name* - *Department* - Faculty Advisor
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
+- *John Leonard* - *Computer Science* - Faculty Advisor
+- *Zachariah Dellimore* - *Computer Science* - Student Team Member
+- *Jacobo Ceballos* - *Computer Science* - Student Team Member
+- *Victor Olivar* - *Computer Science* - Student Team Member
+- *Nate Swetlow* - *Computer Science* - Student Team Member
