@@ -17,19 +17,17 @@ Dave Shure
 John Leonard
 
 ## 1) Accomplishments this week ##
-   - Successfully communicated with our Faculty Advisor, mentor, and technical advisor to align on project goals and expectations. 
-   - Established regular meeting times and held discussions on project plans, ideas, and key objectives.
-   - Clarified the project’s end goal and outlined our initial steps for moving forward.
+   - We succesfully met with our faculty advisor
+   - We set up a meeting with our sponsor
+   - We meet up as a team and discussed our roles
 
 ## 2) Milestones to be completed next week ##
-   - Begin development of the chatbot.
-   - Collect relevant data to train and refine our model based on our use case. 
-   - Conduct research on building RAG chatbots in compliance with Executive Order 30.
+   - Met with sponsor and figure out what they want
+   - Create the repo
+   - get everyone in on github
 
 ## 3) Issues, problems or concerns ##
-   - Need to do a lot of research of the development of chatbots with this new EO 30
-   - Insufficient computational resources (e.g., for model training) or lack of access to necessary tools and technologies could slow progress.
-
+   - none yet
    
 
 
