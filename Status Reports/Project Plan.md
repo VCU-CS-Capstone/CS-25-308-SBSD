@@ -15,7 +15,7 @@
 
 **Deliverables: Team Contract**
 
-**Coding Plan: Build a chatbot model using RAG. We will use RAG to use our information instead of the internet's informartion. With this we will be able to comply with the Government's law.**
+**Coding Plan: Build a chatbot model using RAG. We will use RAG to use SBSD information instead of the internet's informartion. With this we will be able to comply with the Government's law.**
 
 | Week | Tasks | Goals |
 |------|-------|-------|
