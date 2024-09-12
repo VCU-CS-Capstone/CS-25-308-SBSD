@@ -1,18 +1,14 @@
 # Status Reports Folder
-Weekly status reports go into this folder
+Our weekly status reports go into this folder
 
-This Readme.md serves as the front page of this folder - update the table with very succinct weekly reports.
-
-Project Plan.md is a document that should be updated accordingly as the project develops through the year.
-
-Status Report Fall Week XX.md is a template for to copy-paste into new Status reports you generate every week.
+[Project Plan.md](/Status%20Reports/Project%20Plan.md) is a document that should be updated accordingly as the project develops through the year.
 
 ## Fall Semester
 
-| Document | Tasks | Accomplishments | Issues |
+| Document | Accomplishments | Tasks | Issues |
 |---|---|---|---|
-| Week 1 Status Report | We've accomplished a lot | We'll accomplish even more | No problems to report! |
-| Week 2 Status Report | | | |
+| Week 1 Status Report | We met with our faculty advisor | Meet with project sponsor, look into local LLMs, play around with last years github pages | No problems to report! |
+| Week 2 Status Report | We met with our project sponsor and set up the repo | Work on getting GitHub Pages setup and try to link it with our local LLM | No issues to report! |
 | Week 3 Status Report | | | |
 | Week 4 Status Report | | | |
 | Week 5 Status Report | | | |
