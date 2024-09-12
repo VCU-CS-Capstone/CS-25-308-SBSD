@@ -19,5 +19,5 @@
 
 | Week | Tasks | Goals |
 |------|-------|-------|
-| _Week 1_ | To build the team contract |  |
-| _Week 2_ | ... | ... |
+| _Week 1_ | To build the team contract | Set meetings to meet the advisor and mentor |
+| _Week 2_ | To update Github repo set up | To set up a coding plan to start on the project |
