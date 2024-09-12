@@ -1,23 +1,23 @@
-# *CSnnn Project Name*
-## **Sponsor:**
+# *CS-25-308 SBSD*
+## **Sponsor: VA Dept Small Business and Supplied Diversity**
 
-**Students' Names:**
+**Students' Names: Jacobo Ceballos, Zachariah Dellimore, Nate Swetlow, Victor Olivar**
 
-**Mentor:**
+**Mentor: Willis Morris**
 
-**Faculty Advisor:**
+**Faculty Advisor: John Leonard**
 
-**Project:**
+**Project:SBSD Web Prototype and GPT**
 
-**Project Description:**
+**Project Description: The Virginia Department of Small Business and Supplier Diversity (SBSD) https://sbsd.virginia.gov/ would like to create a more interactive, user responsive web site by including chatbot/GPT technology. However, the State of Virginia is concerned about AI and the Governor placed restrictions on it’s implementation (https://www.governor.virginia.gov/newsroom/news-releases/2024/january/name-1019979-en.html) This capstone team will build and deploy a prototype AI that accomplishes the needs of the SBSD while complying with the Governors order. It is expected that this project may serve as a prototype for Commonwealth of VA web sites moving forward.**
 
-**Problem Definition:**
+**Problem Definition: To build a prototype AI that accomplished the needs of the SBSD while complying with the Governors order.**
 
-**Deliverables**
+**Deliverables: Team Contract**
 
-**Coding Plan**
+**Coding Plan: Build a chatbot model using RAG. We will use RAG to use our information instead of the internet's informartion. With this we will be able to comply with the Government's law.**
 
 | Week | Tasks | Goals |
 |------|-------|-------|
-| _Week 1_ | _Task 1_ | _Goal 1_ |
-| ... | ... | ... |
+| _Week 1_ | To build the team contract |  |
+| _Week 2_ | ... | ... |
