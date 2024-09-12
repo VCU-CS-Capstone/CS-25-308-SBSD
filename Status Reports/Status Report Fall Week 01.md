@@ -19,10 +19,10 @@ John Leonard
 ## 1) Accomplishments this week ##
    - We succesfully met with our faculty advisor
    - We set up a meeting with our sponsor
-   - We meet up as a team and discussed our roles
+   - We met up as a team and discussed our roles
 
 ## 2) Milestones to be completed next week ##
-   - Met with sponsor and figure out what they want
+   - Mewt with sponsor and figure out what they want
    - Create the repo
    - get everyone in on github
 
