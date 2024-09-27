@@ -9,8 +9,8 @@ Our weekly status reports go into this folder
 |---|---|---|---|
 | Week 1 Status Report | We met with our faculty advisor | Meet with project sponsor, look into local LLMs, play around with last years github pages | No problems to report! |
 | Week 2 Status Report | We met with our project sponsor and set up the repo | Work on getting GitHub Pages setup and try to link it with our local LLM | No issues to report! |
-| Week 3 Status Report | | | |
-| Week 4 Status Report | | | |
+| Week 3 Status Report | We met with our group and started developing a RAG chatbot to show in our meeting next week | Work on developing LLM | No issues |
+| Week 4 Status Report | We met with our sponsor and showed them the demo of what we have so far | Continue research on LLM and EO 30 | No issues |
 | Week 5 Status Report | | | |
 | Week 6 Status Report | | | |
 | Week 7 Status Report | | | |
