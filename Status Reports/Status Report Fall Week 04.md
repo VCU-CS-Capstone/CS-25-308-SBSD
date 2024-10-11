@@ -18,7 +18,7 @@ John Leonard
 
 ## 1) Accomplishments this week ##
    - We started with a sample code to start the project. 
-   - Established a regular meeting times to plan the project.
+   - Established regular meeting times to plan the project.
    - Succesfully communicated with the sponsor and showed them what we have done so far. 
 
 ## 2) Milestones to be completed next week ##

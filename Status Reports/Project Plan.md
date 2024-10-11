@@ -21,3 +21,7 @@
 |------|-------|-------|
 | _Week 1_ | To build the team contract | Set meetings to meet the advisor and mentor |
 | _Week 2_ | To update Github repo set up | To set up a coding plan to start on the project |
+| _Week 3_ | Research on RAG | Produce a demo chatbot |
+| _Week 4_ | Developing a chatbot that can be used as a demo | Met with advisor and introduce RAG, start the development of a frontend |
+| _Week 5_ | Working on furthering the development of the chatbot, project proposal  | Finishing the proposal |
+| _Week 6_ | Finish the proposal and meet with advisor | Continue working on chatbot and research RAG, producing a user friendly frontend |
