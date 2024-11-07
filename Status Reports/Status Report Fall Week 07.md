@@ -27,7 +27,7 @@ John Leonard
 ## 3) Issues, problems or concerns ##
    - Need to do a lot of research of the development of chatbots with this new EO 30
    - Insufficient computational resources (e.g., for model training) or lack of access to necessary tools and technologies could slow progress
-   -
+   - Figure out a way to host it because GitHub pages on allows for static websites and ours would be dynamic
 
    
 
