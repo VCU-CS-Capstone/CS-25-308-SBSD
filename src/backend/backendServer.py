@@ -1,8 +1,9 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 from query_data import query_rag
+
 app = Flask(__name__)
-cors = CORS(app)
+cors = CORS(app, origins=["http://localhost:3000"])
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/')
