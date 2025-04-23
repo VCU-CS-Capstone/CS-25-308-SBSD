@@ -3,36 +3,36 @@
 import ChatBot from "react-chatbotify";
 import React from "react";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5050';
+
 async function GetResponse(question: string) {
     try {
-        const data = { message: question }
+        const data = { message: question };
 
-        const res = await fetch('http://localhost:5000/queryChatBot', 
-            {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data),
-            })
+        const res = await fetch(`${API_URL}/queryChatBot`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data),
+        });
 
-        console.log(question)
-        
-        // Check if the response is okay (status in the range 200-299)
+        console.log("User Question:", question);
+
         if (!res.ok) {
             throw new Error(`HTTP error! status: ${res.status}`);
         }
 
         const responseJson = await res.json();
-        
         return responseJson['message'];
     } catch (err) {
-        return "Couldn't connect to server"
+        console.error("Fetch error:", err);
+        return "Couldn't connect to server";
     }
 }
 
 const Chatbot = () => {
-    const flow={
+    const flow = {
         start: {
             message: "Hello, is there anything I can help you with today?",
             path: "main_loop"
@@ -44,9 +44,8 @@ const Chatbot = () => {
     }
 
     return (
-        <ChatBot id={"bot"} flow={flow}/>
+        <ChatBot id={"bot"} flow={flow} />
     );
 };
 
 export default Chatbot;
-

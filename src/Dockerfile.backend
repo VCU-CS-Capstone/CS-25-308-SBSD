@@ -1,0 +1,19 @@
+FROM python:3.10
+WORKDIR /app
+
+COPY requirements-docker.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy everything
+COPY backend/ ./backend/
+COPY data/ ./data/
+COPY entrypoint.sh ./entrypoint.sh
+
+# Make the script executable
+RUN chmod +x entrypoint.sh
+
+# Expose port for Flask or FastAPI
+EXPOSE 5050
+
+# 🔥 Use the entrypoint script
+CMD ["./entrypoint.sh"]

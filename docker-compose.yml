@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./src
+      dockerfile: Dockerfile.backend
+    ports:
+      - "5050:5050"  # ✅ host:container
+    volumes:
+      - ./src/data:/app/data
+    environment:
+      - DATA_PATH=/app/data
+      - CHROMA_PATH=/app/data/chroma
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./src
+      dockerfile: Dockerfile.frontend
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:5050  # ✅ build-time injection
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - NODE_ENV=production
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
