@@ -13,7 +13,7 @@ COPY entrypoint.sh ./entrypoint.sh
 RUN chmod +x entrypoint.sh
 
 # Expose port for Flask or FastAPI
-EXPOSE 5050
+EXPOSE 5000
 
 # 🔥 Use the entrypoint script
-CMD ["./entrypoint.sh"]
+CMD ["sh", "-c", "pwd && ls -la && ./entrypoint.sh"]
