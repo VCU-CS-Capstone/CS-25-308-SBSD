@@ -11,8 +11,12 @@ from get_embedding_function import get_embedding_function
 
 load_dotenv()
 
-DATA_PATH = os.environ['DATA_PATH']
-CHROMA_PATH = os.environ['CHROMA_PATH']
+# DATA_PATH = os.environ['DATA_PATH']
+# CHROMA_PATH = os.environ['CHROMA_PATH']
+
+DATA_PATH = "../data"
+CHROMA_PATH = "../chroma"
+
 
 def main():
     parser = argparse.ArgumentParser()
