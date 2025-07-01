@@ -22,7 +22,7 @@ Make sure the following are installed:
 ## 📥 Step 1: Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/VCU-CS-Capstone/CS-25-308-SBSD.git)
+git clone https://github.com/your-username/your-repo-name.git
 cd CS-25-308-SBSD/src
 ```
 
