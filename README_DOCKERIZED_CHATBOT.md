@@ -22,8 +22,8 @@ Make sure the following are installed:
 ## 📥 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/VCU-CS-Capstone/CS-25-308-SBSD.git)
+cd CS-25-308-SBSD/src
 ```
 
 ---
@@ -35,14 +35,14 @@ cd your-repo-name
 2. **Pull required models**
 
 ```bash
-ollama pull qwen:latest
-ollama pull nomic-embed-text
+ollama pull qwen2.5:latest
+ollama pull nomic-embed-text:latest
 ```
 
 3. **Run the Ollama server**
 
 ```bash
-ollama serve
+ollama serve &
 ```
 
 > 🧠 Ollama runs at http://localhost:11434
