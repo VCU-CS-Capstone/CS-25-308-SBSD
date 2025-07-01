@@ -59,7 +59,7 @@ docker compose up
 ```
 
 This will:
-- Start the **Flask backend** at http://localhost:5050
+- Start the **Flask backend** at http://localhost:5000
 - Start the **React frontend** at http://localhost:3000
 
 ---
